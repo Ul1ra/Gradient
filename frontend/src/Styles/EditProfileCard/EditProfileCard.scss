@@ -1,0 +1,225 @@
+.editcard-container {
+    height: 650px;
+    width: 1200px;
+    color: black;
+    background-color: white;
+    // margin: 5% 0% 2% 0%;
+    display: flex;
+    box-shadow: 0px 10px 20px 0px #0000000D;
+    box-shadow: 0px 0px 1px 0px #00000033;
+
+    // position: absolute;
+    // left: 50vh;
+    // margin-left: -300px;
+    // border-radius: 4px;
+    position: relative;
+    left: 60%;
+    margin-left: -50%;
+    margin-top: -200px;
+
+}
+
+.left{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+    .left-top {
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        .user-img{
+            height:150px;
+            border-radius: 100px;
+            z-index: 999;
+        }
+
+        *{
+            margin-top: 10px;
+        }
+
+        .img-button{
+            color: black;
+            background-color: rgba(223, 222, 222, 0.637);
+            width: 150px;
+            height: 30px;
+            border: none;
+            margin-top: -15px;
+            border-radius: 100px;
+
+        }
+
+    }
+
+    .left-bot {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        button:hover{
+            transform: translateY(3px);
+            background-color: rgba(211, 211, 211, 0.466);
+        }
+
+        .edit-button{
+            margin-top: 10px;
+            color: black;
+            background-color: white;
+            width: 150px;
+            height: 30px;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            padding-top: 3px;
+
+        }
+
+        .link{
+            text-decoration: none;
+        }
+    }
+    
+}
+
+.right{
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+
+    .right-upper{
+        height: 70%;
+        width: 100%;
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        justify-content: space-around;
+
+        .fixed-item{
+            color:rgb(180, 179, 179)
+        }
+
+        .edit-profile-input {
+            display: flex;
+            flex-direction: column;
+            width: 40%;
+            font-size: 15px;
+        
+            input {
+                border: none;
+                border-bottom: solid grey;
+            }
+
+            textarea {
+                border: none;
+                border-bottom: solid grey;
+                height: 60px;
+            }
+
+            p {
+                margin-bottom: 10px;
+            }
+        }
+    }
+
+    .right-downer{
+        height: 30%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        padding-left: 40px;
+
+        .liked-things-container{
+            width: 68%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+
+            .user-likes-container{
+                margin-top: 15px;
+                display: flex;
+                width: 90%;
+                flex-wrap: wrap;
+
+                .user-likes{
+                    height: 30px;
+                    width: 150px;
+                    background-color: rgba(211, 211, 211, 0.459);
+                    border-radius: 15px;
+                    margin: 2px;
+                    margin-bottom: 5px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .like {
+                        margin-left: 10px;
+                    }
+
+                    .delete-like {
+                        color: black;
+                        margin-right: 10px;
+                        cursor: pointer;
+                        border: none;
+                    }
+
+                    .delete-like:hover{
+                        color: red;
+                    }
+                }
+            }
+
+        }
+
+        .add-new-like{
+            margin-left: -00px;
+            padding-right: 40px;
+            padding-top: 50px;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            justify-content: flex-start;
+
+
+            .new-like-button{
+                background-color: rgba(211, 211, 211, 0.459);;
+                border: none;
+                height: 30px;
+                margin-top: 20px;
+
+
+            }
+
+            .new-like-input{
+                border: none;
+                width: 200px;
+                border-bottom: solid black;
+            }
+        }
+    }
+    
+
+}    
+
+
+.user-stats{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}

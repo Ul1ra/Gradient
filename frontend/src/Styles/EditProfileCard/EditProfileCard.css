@@ -1,0 +1,303 @@
+.editcard-container {
+  height: 650px;
+  width: 1200px;
+  color: black;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 10px 20px 0px #0000000D;
+          box-shadow: 0px 10px 20px 0px #0000000D;
+  -webkit-box-shadow: 0px 0px 1px 0px #00000033;
+          box-shadow: 0px 0px 1px 0px #00000033;
+  position: relative;
+  left: 60%;
+  margin-left: -50%;
+  margin-top: -200px;
+}
+
+.left {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.left .left-top {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left .left-top .user-img {
+  height: 150px;
+  border-radius: 100px;
+  z-index: 999;
+}
+
+.left .left-top * {
+  margin-top: 10px;
+}
+
+.left .left-top .img-button {
+  color: black;
+  background-color: rgba(223, 222, 222, 0.637);
+  width: 150px;
+  height: 30px;
+  border: none;
+  margin-top: -15px;
+  border-radius: 100px;
+}
+
+.left .left-bot {
+  height: 30%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.left .left-bot button:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  background-color: rgba(211, 211, 211, 0.466);
+}
+
+.left .left-bot .edit-button {
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+.left .left-bot .link {
+  text-decoration: none;
+}
+
+.right {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right .right-upper {
+  height: 70%;
+  width: 100%;
+  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.right .right-upper .fixed-item {
+  color: #b4b3b3;
+}
+
+.right .right-upper .edit-profile-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+  font-size: 15px;
+}
+
+.right .right-upper .edit-profile-input input {
+  border: none;
+  border-bottom: solid grey;
+}
+
+.right .right-upper .edit-profile-input textarea {
+  border: none;
+  border-bottom: solid grey;
+  height: 60px;
+}
+
+.right .right-upper .edit-profile-input p {
+  margin-bottom: 10px;
+}
+
+.right .right-downer {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-bottom: 40px;
+  padding-left: 40px;
+}
+
+.right .right-downer .liked-things-container {
+  width: 68%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right .right-downer .liked-things-container .user-likes-container {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.right .right-downer .liked-things-container .user-likes-container .user-likes {
+  height: 30px;
+  width: 150px;
+  background-color: rgba(211, 211, 211, 0.459);
+  border-radius: 15px;
+  margin: 2px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.right .right-downer .liked-things-container .user-likes-container .user-likes .like {
+  margin-left: 10px;
+}
+
+.right .right-downer .liked-things-container .user-likes-container .user-likes .delete-like {
+  color: black;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+.right .right-downer .liked-things-container .user-likes-container .user-likes .delete-like:hover {
+  color: red;
+}
+
+.right .right-downer .add-new-like {
+  margin-left: -00px;
+  padding-right: 40px;
+  padding-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.right .right-downer .add-new-like .new-like-button {
+  background-color: rgba(211, 211, 211, 0.459);
+  border: none;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.right .right-downer .add-new-like .new-like-input {
+  border: none;
+  width: 200px;
+  border-bottom: solid black;
+}
+
+.user-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+/*# sourceMappingURL=EditProfileCard.css.map */

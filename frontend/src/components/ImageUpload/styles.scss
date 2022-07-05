@@ -1,0 +1,30 @@
+.upload-container{
+    width: 170px;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        display: flex;
+        flex-direction: column;
+    }
+
+    button{
+        margin-top: 10px;
+        color: black;
+        background-color: white;
+        width: 150px;
+        height: 30px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        padding-top: 3px;
+    }
+
+    button:hover{
+        transform: translateY(3px);
+        background-color: rgba(142, 197, 142, 0.699);
+    }
+    
+}

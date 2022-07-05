@@ -1,0 +1,137 @@
+body {
+ background-color: #f2f2f2;
+}
+
+header {
+ height: 10vh;
+ width: 100%;
+ background-color: grey;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+main {
+ height: 90vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-start;
+ align-items: center;
+}
+
+.allposts-container {
+ width: 1200px;
+ column-count: 2;
+ column-gap: 0px;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.modal-container {
+ position: fixed;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ left: 0;
+ z-index: 1;
+ background-color: rgba(0, 0, 0, 0.8);
+ display: flex;
+}
+
+.modal {
+ margin: auto;
+ min-width: 600px;
+ width: 70%;
+ max-width: 300px;
+ background-color: #ffffff;
+ border-radius: 4px;
+ box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2), 0px 10px 20px rgba(0, 0, 0, 0.05);
+ display: flex;
+ flex-direction: column;
+}
+
+.inputSection {
+ padding-left: 30px;
+ padding-top: 20px;
+ display: flex;
+ height: max-content;
+ flex-direction: column;
+ justify-content: around;
+}
+
+.myInputs {
+ border-style: none;
+ width: 300px;
+ height: 60px;
+}
+
+.closeButton {
+ position: relative;
+ bottom: 20px;
+ left: 20px;
+ width: 20px;
+ justify-content: end;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+.buttonSection {
+ display: flex;
+ flex-direction: column;
+ align-items: flex-end;
+}
+
+.submit-button-container {
+ float: right;
+ position: relative;
+}
+
+.submitButton {
+ height: 100px;
+ align-items: center;
+ padding-right: 5px;
+ padding-top: 2px;
+}
+
+.submitShape {
+ position: absolute;
+ left: 0;
+ top: 0;
+ right: 0;
+ bottom: 0;
+ display: block;
+ margin: auto;
+}
+
+.small-input-container {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ height: 70px;
+ align-items: center;
+}
+
+.image-container {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+
+.userAvatar {
+ height: 65px;
+ width: 65px;
+ border-radius: 149.1874px;
+ margin-right: 20px;
+}
+
+.avatar-input {
+ display: flex;
+ flex-direction: row;
+}
+
+.avatar-text-input {
+ display: flex;
+ flex-direction: row;
+}

@@ -1,0 +1,214 @@
+.card-container {
+  height: 420px;
+  width: 1200px;
+  color: black;
+  background-color: white;
+  margin: 5% 0% 2% 0%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-shadow: 0px 10px 20px 0px #0000000D;
+          box-shadow: 0px 10px 20px 0px #0000000D;
+  -webkit-box-shadow: 0px 0px 1px 0px #00000033;
+          box-shadow: 0px 0px 1px 0px #00000033;
+  left: 144px;
+  top: 200px;
+  border-radius: 4px;
+  margin-top: -120px;
+}
+
+.left-container {
+  width: 25%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-right: solid rgba(211, 211, 211, 0.466);
+}
+
+.left-container .user-img {
+  height: 150px;
+  border-radius: 100px;
+}
+
+.left-container .user-img:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+
+.left-container .left-button {
+  margin-top: 10px;
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 30px;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-decoration: none;
+  padding-top: 3px;
+}
+
+.left-container .left-button:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+  background-color: rgba(211, 211, 211, 0.466);
+}
+
+.left-container .link {
+  text-decoration: none;
+}
+
+.right-container {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-left: 40px;
+}
+
+.right-container .right-up {
+  height: 70%;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.right-container .right-up .right-up-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 60%;
+}
+
+.right-container .right-up .right-up-up .about-container {
+  width: 50%;
+  height: 100%;
+}
+
+.right-container .right-up .right-up-up .about-container * {
+  padding-right: 20px;
+}
+
+.right-container .right-up .right-up-up .liked-things-container {
+  width: 50%;
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.right-container .right-up .right-up-up .liked-things-container .user-likes-container {
+  margin-top: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.right-container .right-up .right-up-up .liked-things-container .user-likes-container .user-likes {
+  height: 30px;
+  width: 100px;
+  background-color: rgba(211, 211, 211, 0.459);
+  border-radius: 15px;
+  margin: 2px;
+  margin-bottom: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right-container .right-up .right-up-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-bottom: 40px;
+  padding-bottom: 20px;
+}
+
+.right-container .right-up .right-up-down * {
+  margin-right: 20px;
+}
+
+.right-container .right-up .right-up-down .email-container {
+  margin-top: 10px;
+}
+
+.right-container .right-up .right-up-down .phone-container {
+  margin-top: 10px;
+}
+
+.right-container .right-down {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  margin-left: -40px;
+  border-top: solid rgba(211, 211, 211, 0.466);
+}
+
+.user-stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+}
+/*# sourceMappingURL=UserProfileCard.css.map */

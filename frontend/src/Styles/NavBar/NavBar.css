@@ -1,0 +1,123 @@
+.nav-bar {
+  height: 9vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+}
+
+.nav-bar h3 {
+  cursor: pointer;
+}
+
+.nav-bar .left {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 150px;
+}
+
+.nav-bar .left h3 {
+  color: grey;
+  margin-left: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-bar .left .friends-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-bar .left .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: grey;
+}
+
+.nav-bar .left .logo-container img {
+  height: 35px;
+  margin-right: 20px;
+}
+
+.nav-bar .left .navposts-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.nav-bar .left .navposts-container .link {
+  text-decoration: none;
+}
+
+.nav-bar .left .navposts-container img.desaturate {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+.nav-bar .left .link {
+  text-decoration: none;
+}
+
+.nav-bar .link-logout {
+  color: #a0a0a0;
+}
+
+.nav-bar .right {
+  color: grey;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 12%;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.nav-bar .right img {
+  height: 50px;
+  width: 50px;
+  border-radius: 100px;
+}
+
+.nav-bar .right img:hover {
+  -webkit-transform: translateY(3px);
+          transform: translateY(3px);
+}
+/*# sourceMappingURL=NavBar.css.map */

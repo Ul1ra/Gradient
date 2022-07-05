@@ -1,0 +1,63 @@
+.base-button{
+    background-color: transparent;
+    border: solid rgba(211, 211, 211, 0.37);
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+}
+
+.apple-store-btn{
+    @extend .base-button;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 0px 0px 4px;
+}
+
+.google-store-btn{
+    @extend .base-button;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4px 0px 0px 4px;
+    
+}
+
+
+.signup-button{
+    @extend .base-button;
+    color: black;
+    border: solid lightgrey;
+    margin-right: 50px;
+    width: 100px;
+    font-size: $font-Xsmall;
+}
+
+.signin-button{
+    @extend .base-button;
+    color: white;
+    background-image: linear-gradient(90deg, #be66f5, #6d90fc);
+    border: none;
+    width: 250px;
+    height: 50px;
+    border-radius: 30px;
+    font-size: $font-small;
+
+    -webkit-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.31);
+    box-shadow: 10px 10px 21px -4px rgba(0,0,0,0.31);
+
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    justify-content: space-evenly;
+    margin: 40px 0px 100px 0px;
+
+}

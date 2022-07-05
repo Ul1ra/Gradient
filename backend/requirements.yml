@@ -1,0 +1,14 @@
+name: motion-backend
+dependencies:
+  - python==3.10.0
+  - psycopg2
+  - pip
+  - pip:
+      - django==4.0.3
+      - djangorestframework==3.13.1
+      - djangorestframework-simplejwt==5.1.0
+      - flake8==4.0.1
+      - gunicorn==20.1.0
+      - pillow==9.0.1
+      - drf-yasg==1.20.0
+
