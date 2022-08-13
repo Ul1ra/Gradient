@@ -1,7 +1,8 @@
 //Kat -- getting most recent posts for the feed page
 
 export const fetchAndDispatchPosts = (dispatch, getState) => {
-  const url = "https://motion.propulsion-home.ch/backend/api/social/posts/";
+  const url = 'http://127.0.0.1:8000/backend/api/social/posts/';
+  // const url = "https://gradient.propulsion-home.ch/backend/api/social/posts/";
   const method = "GET";
   //const latestReduxState = getState();
   const token = localStorage.getItem("token"); 
@@ -18,7 +19,8 @@ export const fetchAndDispatchPosts = (dispatch, getState) => {
 //Kat -- posting a post (Both text and image work now)
 
 export const dispatchPost = (dispatch, getState, content, images) => {
-  const url = 'https://motion.propulsion-home.ch/backend/api/social/posts/';
+  const url = 'http://127.0.0.1:8000/backend/api/social/posts/';
+  // const url = 'https://gradient.propulsion-home.ch/backend/api/social/posts/';
   const token = localStorage.getItem("token"); 
  
   console.log('images 1------,', images[0]);
@@ -45,7 +47,8 @@ export const dispatchPost = (dispatch, getState, content, images) => {
 
 
 export const dispatchLiked = (dispatch, getState, likedid, likedcontent) => {
-  const url = "https://motion.propulsion-home.ch/backend/api/social/posts/toggle-like/" + likedid + "/";
+  const url = 'http://127.0.0.1:8000/backend/api/social/posts/toggle-like/' + likedid + "/";
+  // const url = "https://gradient.propulsion-home.ch/backend/api/social/posts/toggle-like/" + likedid + "/";
   
   console.log(url)
   const token = localStorage.getItem("token"); 

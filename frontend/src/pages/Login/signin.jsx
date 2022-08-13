@@ -8,7 +8,7 @@ import passwordSVG from '../../assets/saved/svgs/password.svg';
 import twitterIcon from '../../assets/saved/svgs/twitter_icon.svg';
 import facebookIcon from '../../assets/saved/svgs/facebook_icon.svg';
 import instaIcon from '../../assets/saved/svgs/instagram_icon.svg';
-import motionLogo from '../../assets/saved/images/logo_white.png'
+import gradientLogo from '../../assets/saved/images/logo_white.png'
 import googleBtn from '../../assets/saved/svgs/google.svg';
 import appleBtn from '../../assets/saved/svgs/apple.svg';
 
@@ -29,13 +29,13 @@ const SignIn = () => {
     <main>
         <div class="left-container">
             <div class="left-top">
-                <div class="logo-motion">
-                    <img src={motionLogo} alt="motion-logo" />
+                <div class="logo-gradient">
+                    <img src={gradientLogo} alt="gradient-logo" />
                     {/* <button onClick={loginClickHandler}>Login</button> */}
-                    <h1>Motion</h1>
+                    <h1>gradient</h1>
                 </div>
                 <p>
-                    Connect with friends and the world around you with Motion.
+                    Connect with friends and the world around you with gradient.
                 </p>
                 <div class="buttons">
                     <button class="apple-store-btn">
@@ -52,7 +52,7 @@ const SignIn = () => {
                     <img src={facebookIcon} alt="" />
                     <img src={instaIcon} alt="" />
                 </div>
-                <p>@Motion 2018. All rights reserved</p>
+                <p>@gradient 2018. All rights reserved</p>
             </div>
             
         </div>

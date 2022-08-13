@@ -18,13 +18,13 @@ RUN chmod +x ./scripts*
 
 RUN /opt/conda/bin/conda env create -f /backend/requirements.yml
 
-ENV PATH /opt/conda/envs/motion-backend/bin:$PATH
-RUN echo "source activate motion-backend" >~/.bashrc
+ENV PATH /opt/conda/envs/gradient-backend/bin:$PATH
+RUN echo "source activate gradient-backend" >~/.bashrc
 
 WORKDIR /frontend
 COPY ./frontend/package.json /frontend/
 COPY ./frontend/package-lock.json /frontend/
-RUN npm install
+RUN npm install --force
 COPY ./frontend /frontend
 RUN npm run build
 

@@ -1,4 +1,4 @@
-name: motion-backend
+name: gradient-backend
 dependencies:
   - python==3.10.0
   - psycopg2

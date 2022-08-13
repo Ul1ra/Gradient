@@ -59,8 +59,8 @@ const EditProfileCard = (props) => {
     }
 
     const onClickHandler = () => {
-
-        let url = 'https://motion.propulsion-home.ch/backend/api/users/me/'
+        let url = 'http://127.0.0.1:8000/backend/api/users/me/'
+        // let url = 'https://gradient.propulsion-home.ch/backend/api/users/me/'
         const method = 'PATCH';
         const headers = new Headers({'Accept': 'application/json','Content-Type': 'application/json','Authorization':`Bearer ${localToken}`})
 
@@ -79,8 +79,8 @@ const EditProfileCard = (props) => {
         fetch(url,config)
         .then(response => response.json())
 
-
-        let url2 = 'https://motion.propulsion-home.ch/backend/api/users/me/'
+        let url2 = 'http://127.0.0.1:8000/backend/api/users/me/'
+        // let url2 = 'https://gradient.propulsion-home.ch/backend/api/users/me/'
         const method2 = 'PATCH';
         const headers2 = new Headers({'Accept': 'application/json','Content-Type': 'application/json','Authorization':`Bearer ${localToken}`})
 

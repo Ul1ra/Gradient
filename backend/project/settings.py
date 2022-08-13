@@ -61,7 +61,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CSRF_TRUSTED_ORIGINS = ['https://team2.propulsion-learn.ch']
+CSRF_TRUSTED_ORIGINS = ['http://localhost:8000']
 
 ROOT_URLCONF = 'project.urls'
 

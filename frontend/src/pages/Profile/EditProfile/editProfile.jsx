@@ -27,7 +27,8 @@ const EditProfile = () => {
 
   useEffect(() => {
     console.log('element loaded');
-    const url = 'https://motion.propulsion-home.ch/backend/api/auth/token/';
+    const url = 'http://127.0.0.1:8000/backend/api/users/me/'
+    // const url = 'https://gradient.propulsion-home.ch/backend/api/auth/token/';
     const method = 'POST';
     const headers = new Headers({'Content-type':'application/json'});
 
@@ -46,7 +47,8 @@ const EditProfile = () => {
   }, [])
 
   const clickHandler = () => {
-    const url = 'https://motion.propulsion-home.ch/backend/api/users/me/';
+    const url = 'http://127.0.0.1:8000/backend/api/users/me/'
+    // const url = 'https://gradient.propulsion-home.ch/backend/api/users/me/';
     const method = 'GET';
     const headers = new Headers({'Authorization':`Bearer ${token}`});
 

@@ -16,7 +16,7 @@ const NavBar = () => {
             <div className='left'>
                 <div className='logo-container'>
                     <img src={favicon} alt='no-img'></img>
-                    <h2>Motion</h2>
+                    <h2>gradient</h2>
                 </div>
                 <div className='navposts-container'>
                     <img src={postLogo}></img>

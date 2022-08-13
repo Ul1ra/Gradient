@@ -1,5 +1,6 @@
 // export const uploadAvatar = (dispatch, getState, image) => {
-//     const url = 'https://motion.propulsion-home.ch/backend/api/users/me/';
+//     const url = 'http://127.0.0.1:8000/backend/api/users/me/';
+//     const url = 'https://gradient.propulsion-home.ch/backend/api/users/me/';
 //     const token = localStorage.getItem("token"); 
   
 //     const formData = new FormData()
